@@ -11,6 +11,8 @@ Source0:	http://dl.sourceforge.net/autonap/%{name}-%{version}.tar.gz
 URL:		http://autonap.sourceforge.net/
 BuildRequires:	perl-devel >= 1:5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-MP3-Napster
+Requires:	perl-Term-ReadKey
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
