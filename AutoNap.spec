@@ -3,7 +3,7 @@ Summary:	Napster/OpenNap client written in Perl
 Summary(pl):	Klient Napstera/OpenNapa napisany w Perlu
 Name:		AutoNap
 Version:	0.1.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
@@ -25,18 +25,18 @@ plików mp3.
 %setup -q
 
 %build
-perl configure.PL
+%{__perl} configure.PL
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man{1,5},%{_sysconfdir}} \
-	$RPM_BUILD_ROOT%{perl_sitelib}
+	$RPM_BUILD_ROOT%{perl_vendorlib}
 
 install ./target/AutoNap.pl $RPM_BUILD_ROOT%{_bindir}
 install AutoNap.pl.1 $RPM_BUILD_ROOT%{_mandir}/man1
 install autonap.conf $RPM_BUILD_ROOT%{_sysconfdir}
 install autonap.conf.5 $RPM_BUILD_ROOT%{_mandir}/man5
-cp -a AutoLib $RPM_BUILD_ROOT%{perl_sitelib}
+cp -a AutoLib $RPM_BUILD_ROOT%{perl_vendorlib}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc README-running Changelog
 %attr(755,root,root) %{_bindir}/*
 %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/*
-%{perl_sitelib}/AutoLib
+%{perl_vendorlib}/AutoLib
 %{_mandir}/man*/*
