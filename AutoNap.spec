@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Napster/OpenNap client written in Perl
-Summary[pl]:	Klient Napstera/OpenNapa napisany w Perlu
+Summary(pl):	Klient Napstera/OpenNapa napisany w Perlu
 Name:		AutoNap
 Version:	0.1.3
 Release:	1
@@ -11,8 +11,6 @@ Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
-%requires_eq	perl
-Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
