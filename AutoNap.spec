@@ -6,7 +6,7 @@ Version:	0.5.1
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/autonap/%{name}-%{version}.tar.gz
 # Source0-md5:	febe23cb6978bbc49cfa227d1aa1d37a
 URL:		http://autonap.sourceforge.net/
 BuildRequires:	rpm-perlprov >= 3.0.3-16
