@@ -15,12 +15,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 AutoNap is a (hopefully) fully automatizable Napster/OpenNap client
-which consequently serves one lone purpose: Getting mp3s!
+which consequently serves one lone purpose: Getting MP3s!
 
 %description -l pl
 AutoNap jest zdatnym do ca³kowitej automatyzacji klientem
 Napstera/OpenNapa, konsekwentnie s³u¿±cym jednemu celowi: uzyskiwaniu
-plików mp3.
+plików MP3.
 
 %prep
 %setup -q
