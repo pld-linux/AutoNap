@@ -8,7 +8,7 @@ License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	%{name}-%{version}.tar.gz
+Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 %requires_eq	perl
