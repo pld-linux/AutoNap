@@ -6,8 +6,6 @@ Version:	0.1.3
 Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
-Group(de):	Entwicklung/Sprachen/Perl
-Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
 URL:		http://autonap.sourceforge.net/
 BuildRequires:	rpm-perlprov >= 3.0.3-16
