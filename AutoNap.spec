@@ -20,7 +20,7 @@ which consequently serves one lone purpose: Getting mp3s!
 
 %description -l pl
 AutoNap jest zdatnym do ca³kowitej automatyzacji klientem
-Naptera/OpenNapa, konsekwentnie s³u¿±cym jednemu celowi: uzyskiwaniu
+Napstera/OpenNapa, konsekwentnie s³u¿±cym jednemu celowi: uzyskiwaniu
 plików mp3.
 
 %prep
