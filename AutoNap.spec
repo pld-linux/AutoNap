@@ -9,13 +9,19 @@ Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
+URL:		http://autonap.sourceforge.net/
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+AutoNap is a (hopefully) fully automatizable Napster/OpenNap client
+which consequently serves one lone purpose: Getting mp3s!
 
 %description -l pl
+AutoNap jest zdatnym do ca³kowitej automatyzacji klientem
+Naptera/OpenNapa, konsekwentnie s³u¿±cym jednemu celowi: uzyskiwaniu
+plików mp3.
 
 %prep
 %setup -q
