@@ -7,6 +7,7 @@ Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://autonap.sourceforge.net/rel/%{name}-%{version}.tar.gz
+# Source0-md5:	c15a9c20a7cb63b88ba07027a60d556a
 URL:		http://autonap.sourceforge.net/
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
