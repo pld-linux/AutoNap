@@ -3,7 +3,7 @@ Summary:	Napster/OpenNap client written in Perl
 Summary(pl):	Klient Napstera/OpenNapa napisany w Perlu
 Name:		AutoNap
 Version:	0.1.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
