@@ -31,20 +31,19 @@ perl configure.PL
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man{1,5},%{_sysconfdir}} \
 	$RPM_BUILD_ROOT%{perl_sitelib}
+
 install ./target/AutoNap.pl $RPM_BUILD_ROOT%{_bindir}
 install AutoNap.pl.1 $RPM_BUILD_ROOT%{_mandir}/man1
 install autonap.conf $RPM_BUILD_ROOT%{_sysconfdir}
 install autonap.conf.5 $RPM_BUILD_ROOT%{_mandir}/man5
 cp -a AutoLib $RPM_BUILD_ROOT%{perl_sitelib}
 
-gzip -9nf README-running Changelog
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README-running Changelog
 %attr(755,root,root) %{_bindir}/*
 %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/*
 %{perl_sitelib}/AutoLib
