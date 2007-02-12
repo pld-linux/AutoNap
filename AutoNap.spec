@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Napster/OpenNap client written in Perl
-Summary(pl):	Klient Napstera/OpenNapa napisany w Perlu
+Summary(pl.UTF-8):   Klient Napstera/OpenNapa napisany w Perlu
 Name:		AutoNap
 Version:	0.5.1
 Release:	3
@@ -20,10 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 AutoNap is a (hopefully) fully automatizable Napster/OpenNap client
 which consequently serves one lone purpose: Getting MP3s!
 
-%description -l pl
-AutoNap jest zdatnym do ca≥kowitej automatyzacji klientem
-Napstera/OpenNapa, konsekwentnie s≥uø±cym jednemu celowi: uzyskiwaniu
-plikÛw MP3.
+%description -l pl.UTF-8
+AutoNap jest zdatnym do ca≈Çkowitej automatyzacji klientem
+Napstera/OpenNapa, konsekwentnie s≈Çu≈ºƒÖcym jednemu celowi: uzyskiwaniu
+plik√≥w MP3.
 
 %prep
 %setup -q
