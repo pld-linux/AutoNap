@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Napster/OpenNap client written in Perl
 Summary(pl.UTF-8):	Klient Napstera/OpenNapa napisany w Perlu
 Name:		AutoNap
